@@ -1,0 +1,68 @@
+body{
+  background-image: url('background.jpg');
+  background-size: cover;
+}
+
+.container{
+width: 1000px;
+box-sizing: border-box;
+border-radius: 15px;
+background-color: rgba(0, 0, 0, 0.5);
+margin: 30px auto;
+padding: 60px;
+}
+
+header{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+width: 205px;
+}
+
+.title{
+    font-size: 25px;
+    font-weight: bold; 
+}
+
+nav > div{
+   background-color: rgb(0, 211, 0); 
+   padding: 10px;
+   text-align: center;
+}
+
+main > div{
+    padding-top: 20px;
+}
+
+main div{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.monopattino{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.carica1{
+    width: 40%;
+    min-height: 20px;
+    border-radius: 5px;
+    background-color: rgb(245, 180, 83);
+}
+
+.carica2{
+    width: 60%;
+    min-height: 20px;
+    border-radius: 5px;
+    background-color: rgb(30, 195, 30);
+}
+
+.carica3{
+    width: 20%;
+    min-height: 20px;
+    border-radius: 5px;
+    background-color: rgb(190, 65, 65);
+}
